@@ -1,0 +1,24 @@
+# ~/.config/starship.toml
+
+[python]
+disabled = false
+symbol = "python "
+prefix = "using "
+style = "bold 72"
+python_binary = "python3"
+
+[directory]
+style = "bold 223"
+
+[time]
+disabled = true
+style = "243"
+# format = "[%T]"
+utc_time_offset = "-6"
+use_12hr = true
+
+[conda]
+# symbol = "Ͼ "
+symbol = ""
+prefix = "in "
+style = "bold 79"
