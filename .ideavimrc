@@ -1,0 +1,36 @@
+syntax on
+colo sitruuna
+
+set nocompatible
+set backspace=indent,eol,start
+set clipboard=unnamed
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4 
+set expandtab
+set smartindent
+set nu
+set nowrap
+set smartcase
+set noswapfile
+set incsearch
+
+set laststatus=2
+" set rtp+=/usr/local/lib/python3.7/site-packages/powerline/bindings/vim
+
+inoremap <S-Tab> <C-d>
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
+set surround
+set commentary
+set argtextobj
+set multiple-cursors
+set easymotion
+set clipboard+=ideaput
