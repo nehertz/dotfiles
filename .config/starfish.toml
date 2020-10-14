@@ -3,7 +3,7 @@
 [python]
 disabled = false
 symbol = "python "
-prefix = "using "
+format = "using [$symbol]($style)[$version]($style) "
 style = "bold 72"
 python_binary = "python3"
 
@@ -13,12 +13,24 @@ style = "bold 223"
 [time]
 disabled = true
 style = "243"
-# format = "[%T]"
 utc_time_offset = "-6"
 use_12hr = true
 
 [conda]
 # symbol = "Ͼ "
 symbol = ""
-prefix = "in "
+format = "in [$environment]($style) "
 style = "bold 79"
+
+[git_commit]
+disabled = false
+commit_hash_length = 8
+only_detached = false
+
+[git_status]
+style = "bold 210"
+conflicted = "C"
+untracked = "U"
+stashed = "S"
+modifed = "M"
+renamed = "R"
