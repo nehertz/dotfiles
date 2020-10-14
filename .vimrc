@@ -6,10 +6,6 @@ set noerrorbells
 set complete+=kspell
 set completeopt=menuone,longest
 
-" [THEME]
-syntax on
-colo forest-night
-
 " [FORMATTING]
 set tabstop=4 softtabstop=4
 set shiftwidth=4 
@@ -50,6 +46,10 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'wikitopian/hardmode'
 Plug 'sainnhe/forest-night'
 call plug#end()
+
+" [THEME]
+syntax on
+colo forest-night
 
 " [REMAPS]
 inoremap <S-Tab> <C-d>
