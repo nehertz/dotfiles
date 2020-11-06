@@ -3,7 +3,7 @@
 [python]
 disabled = false
 symbol = "python "
-format = "using [$symbol]($style)[$version]($style) "
+format = 'using [python ${pyenv_prefix}${version}]($style)[( \($virtualenv\))](72) '
 style = "bold 72"
 python_binary = "python3"
 
